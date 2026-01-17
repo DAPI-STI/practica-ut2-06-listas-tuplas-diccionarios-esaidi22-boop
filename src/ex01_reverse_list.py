@@ -13,5 +13,7 @@ def reverse_list(values: list[int]) -> list[int]:
     - reverse_list([1, 2, 3]) -> [3, 2, 1]
     - reverse_list([]) -> []
     """
+    def reverse_list(values: list[int]) -> list[int]:
     return values[::-1]
+
    
